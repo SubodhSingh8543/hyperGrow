@@ -1,10 +1,17 @@
-import logo from './logo.svg';
+import { Box } from '@chakra-ui/react';
 import './App.css';
-import NavMiddle from './Components/NavbarMiddle';
+import Alloutes from './Components/AllRoutes/AllRoutes';
+import Nav from './Components/Navbar/Navbar';
+import FooterDiv from './Components/footer';
+
 
 function App() {
   return (
-    <NavMiddle/>
+    <Box >
+      <Nav/>
+      <Alloutes/>
+      <FooterDiv/>
+    </Box>
   );
 }
 
